@@ -1,0 +1,19 @@
+a{
+  text-decoration: none;
+}
+
+a:hover{
+  color: yellow;
+}
+
+a:visited{
+  color: red;
+}
+
+a:active{
+  color: green;
+}
+a:focus{
+  color: pink;
+  outline: 3px;
+}
