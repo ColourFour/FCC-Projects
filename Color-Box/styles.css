@@ -1,0 +1,32 @@
+body{
+  background-color: #f4f4f4;
+}
+
+.color-box{
+  width: 150px;
+  height: 150px;
+}
+
+.color1{
+  background-color: #364802;
+}
+
+
+.color2{
+  background-color: rgb(125, 125, 0);
+}
+
+
+.color3{
+  background-color: pink;
+}
+
+
+.color4{
+  background-color: hsl(0, 40%, 20%);
+}
+
+
+.color5{
+  background-color: pink;
+}
