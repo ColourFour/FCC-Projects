@@ -1,0 +1,26 @@
+.form-container{
+    background-color: yellow;
+    border-radius: 15px;
+    padding: 16px;
+    width: 100vw;
+}
+
+label{
+    margin: 8px;
+    color: beige;
+}
+
+input, textarea{
+    width: 80vw;
+    padding: 16px;
+    margin: 0 0 8px 0;
+}
+
+button{
+    background-color: blue;
+    font-size: 32px;
+}
+
+button:hover{
+    background-color: red;
+}
