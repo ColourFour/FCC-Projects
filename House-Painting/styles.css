@@ -1,0 +1,75 @@
+#sky{
+  position: fixed;
+  width: 1000px;
+  height: 400px;
+  background-color: skyblue;
+}
+
+#grass{
+  position: fixed;
+  width: 1000px;
+  height: 400px;
+  top: 400px;
+  background-color: olive;
+}
+
+#house{
+  position: relative;
+  width: 500px;
+  height: 400px;
+  top: 150px;
+  left: 250px;
+  background-color: #D4C59C;
+  border: 12px solid black;
+  z-index: 2;
+}
+
+#chimney{
+  position: absolute;
+  width: 60px;
+  height: 90px;
+  background-color: gray;
+  top: -106px;
+  right: 45px;
+  z-index: 1;
+  border: 8px solid black;
+}
+#roof{
+  position: absolute;
+  width: 488px;
+  height: 135px;
+  background-color: #E2725B;
+  top: 0;
+  border: 8px solid red;
+}
+
+#door{
+  position: absolute;
+  width: 80px;
+  height: 150px;
+  background-color: white;
+  right: 200px;
+  bottom: 0px;
+  border: 8px solid black;
+}
+
+#window-1{
+  position: absolute;
+  width: 65px;
+  height: 65px;
+  left: 15px;
+  background-color: lightblue;
+  bottom: 150px;
+  border: 8px solid white;
+}
+
+
+#window-2{
+  position: absolute;
+  width: 65px;
+  height: 65px;
+  left: 355px;
+  background-color: lightblue;
+  bottom: 150px;
+  border: 8px solid white;
+}
