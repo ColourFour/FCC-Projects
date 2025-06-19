@@ -1,0 +1,82 @@
+.read{
+  background: linear-gradient(green, lightgreen);
+}
+
+.to-read{
+  background: linear-gradient(red, pink);
+}
+
+.in-progress{
+  background: linear-gradient(yellow, lightyellow);
+}
+
+.title{
+  background: linear-gradient(skyblue, lightblue);
+  color: white;
+}
+
+span{
+  display: inline-block;
+}
+
+tr[class="to-read"]{
+  border: 1px solid black;
+  background-image: linear-gradient(silver, grey);
+}
+
+tr[class="read"]{
+  border: 1px solid black;
+  background-image: linear-gradient(limegreen, lightgreen);
+}
+
+
+tr[class="in-progress"]{
+  border: 1px solid black;
+  background-image: linear-gradient(orange, #ff8100);
+}
+
+tr[class="to-read"] span[class="status"]{
+  border: 2px solid gold;
+  background-image: linear-gradient(violet, purple);
+}
+
+
+tr[class="read"] span[class="status"]{
+  border: 2px solid gold;
+  background-image: linear-gradient(violet, purple);
+}
+
+
+tr[class="in-progress"] span[class="status"]{
+  border: 2px solid gold;
+  background-image: linear-gradient(violet, purple);
+}
+
+span[class="status"], span[class^="rate"] {
+  height: 8px;
+  width: 8px;
+  padding: 12px;
+}
+
+
+span[class^="rate"] > span{
+  height: 8px;
+  width: 8px;
+  padding: 12px;
+  border: 1px dotted silver;
+  border-radius: 15%;
+  margin: 4px;
+  background-color: black;
+}
+
+span[class~="one"] > span:first-child{
+  background-image: linear-gradient(yellow, blue);
+}
+
+span[class~="two"] > span:first-child, span[class~="two"] > span:nth-child(2){
+  background-image: linear-gradient(black, gold);
+}
+
+span[class~="three"]> span{
+  background-image: linear-gradient(red, white);
+}
